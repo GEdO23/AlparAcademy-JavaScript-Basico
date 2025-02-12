@@ -2,6 +2,8 @@
 
 Primeiros desafios de JavaScript, da 2ª edição do Programa Rocket, da empresa [Alpar](https://alpar.com.br/).
 
+## Dia 01
+
 ### Desafio 01 - Fórmula de Bhaskara
 
 Faça um programa em Javascript para calcular os valores x1 e x2 da fórmula de Bhaskara, usando as variáveis a, b e c, e mostre os valores x1 e x2. 
@@ -22,3 +24,17 @@ e o valor do produto com o imposto aplicado.
 
 Pra tornar as coisas mais interessantes, como o valor do imposto é variável, 
 vamos brincar de loteria e deixar o valor do imposto randômico (entre os valores informados.... 12 a 25%)
+
+## Dia 02
+
+### Desafio 02 - Fórmula de Bhaskara com condicionais
+
+Melhore o programa de Bhaskara do desafio anterior, adicionando IFs para verificar se:
+
+a) A variável “a” é válida (não pode ser zero);
+
+b) Se não existem raízes reais, e informar;
+
+c) Se existe apenas uma raiz real, e informar essa raiz;
+
+d) Se existem duas raízes reais, e as informar
