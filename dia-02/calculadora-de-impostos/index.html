@@ -12,21 +12,28 @@
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
             crossorigin="anonymous">
     </head>
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
     <body>
-        <header class="p-3 pb-4">
+        <header class="container p-3">
             <h1 class="display-3">Calculadora de Impostos</h1>
         </header>
 
-        <main class="pb-5">
-            <form class="d-flex flex-column gap-4">
-                <div class="px-3 d-flex flex-column gap-3">
-                    <div class="form-floating">
+        <main class="container p-3 bd-main">
+            <form>
+                <div>
+                    <div class="form-floating mb-3">
                         <input type="text" id="inCupom" class="form-control">
                         <label for="inCupom">Cupom<span>-
                                 Opcional</span></label>
                     </div>
 
-                    <div class="form-floating">
+                    <div class="form-floating mb-3">
                         <input type="number" id="inPreco" class="form-control">
                         <label for="inPreco">Preço</label>
                     </div>
@@ -43,12 +50,13 @@
                     </div>
                 </div>
 
-                <div class="px-3 d-flex flex-column gap-3">
+                <div
+                    class="mt-4 col-sm-3 mx-md-0 col-lg-2">
                     <button class="btn btn-primary"
                         id="btnCalcular">Calcular</button>
                 </div>
 
-                <div class="px-3 d-flex flex-column" id="resultado">
+                <div class="mt-4" id="resultado">
                     <p><strong>Preço:</strong><span
                             id="produtoPreco"></span></p>
                     <p><strong>Desconto:</strong><span
@@ -63,13 +71,15 @@
             </form>
         </main>
 
-        <footer class="d-flex flex-row gap-3 p-3 bg-primary">
-            <img src="./assets/GEdO_Tech-Logo.png" alt="GEdO Tech."
-                width="112.84px"
-                height="32.9px">
-            <div class="vr bg-white"></div>
-            <img src="./assets/Alpar-Logo.png" alt="Alpar" width="112.84px"
-                height="29.91px">
+        <footer class="mt-auto bg-dark bd-footer">
+            <div class="d-flex flex-row gap-3 py-3 container">
+                <img src="./assets/GEdO_Tech-Logo.png" alt="GEdO Tech."
+                    width="112.84px"
+                    height="32.9px">
+                <div class="vr bg-white"></div>
+                <img src="./assets/Alpar-Logo.png" alt="Alpar" width="112.84px"
+                    height="29.91px">
+            </div>
         </footer>
 
         <script
