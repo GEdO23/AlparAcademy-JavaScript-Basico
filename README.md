@@ -16,8 +16,8 @@ A calculadora precisa conter 3 variáveis:
 * uma que informe se o produto tem direito a desconto (desconto de 10%)
 * e o ICMS (que pode variar entre 12 e 25%) 
 
-O ICMS deverá ser calculado **após o produto receber (ou não desconto)**. 
- 
+O ICMS deverá ser calculado **após o produto receber (ou não desconto)**.
+
 O programa deverá retornar o valor do produto original, 
 se ele teve desconto, o valor do produto com desconto 
 e o valor do produto com o imposto aplicado. 
@@ -38,3 +38,14 @@ b) Se não existem raízes reais, e informar;
 c) Se existe apenas uma raiz real, e informar essa raiz;
 
 d) Se existem duas raízes reais, e as informar
+
+### Desafio Extra - Calculadora de Impostos v2
+
+Até o momento, a pessoa poderia ganhar um desconto randomicamente (ou não). 
+Agora, o comprador pode colocar um cupom "PROMO15", que garante 15% de desconto no valor do produto. 
+A pessoa pode colocar o código OU ganhar o desconto.
+
+Vamos também inserir questão de frete para o envio da compra. 
+O comprador precisa colocar o estado em que ele está. 
+Se for de SP, o frete custa R$10,00. 
+Se for do RJ, o frete é R$20,00 e, para os demais estados, o frete é R$30,00
