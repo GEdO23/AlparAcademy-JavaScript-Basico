@@ -99,6 +99,8 @@ O jogo é composto por 20 rodadas, e o jogador ganha se ele chegar na 20ª rodad
     A pontuação final deverá ser exibida na última rodada.
     Poderá ser exibido em tela avisos de ganho e perda de pontos
 
+[Acessar site](https://gedotech-jogo-de-dados.vercel.app/)
+
 ## Créditos
 
 <a href="https://www.flaticon.com/br/icones-gratis/calculadora" title="calculadora ícones">Calculadora ícones criados por Dimitry Miroliubov - Flaticon</a>
