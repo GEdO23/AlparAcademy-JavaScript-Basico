@@ -50,6 +50,8 @@ O comprador precisa colocar o estado em que ele está.
 Se for de SP, o frete custa R$10,00. 
 Se for do RJ, o frete é R$20,00 e, para os demais estados, o frete é R$30,00
 
+[Acessar site](https://gedotech-calculadora-de-impostos.vercel.app/)
+
 ## Dia 03
 
 ### Desafio 03 - Jogo de adivinhação
@@ -76,6 +78,8 @@ por um número, você pode obter valores entre 0 e o número escolhido;
 
 Math.round() arredonda um número para inteiro, 5.4 é arredondado para 5, e 5.5 é
 arredondado para 6.
+
+[Acessar site](https://gedotech-jogo-de-advinhacao.vercel.app/)
 
 ## Créditos
 
