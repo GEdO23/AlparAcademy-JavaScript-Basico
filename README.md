@@ -76,3 +76,9 @@ por um número, você pode obter valores entre 0 e o número escolhido;
 
 Math.round() arredonda um número para inteiro, 5.4 é arredondado para 5, e 5.5 é
 arredondado para 6.
+
+## Créditos
+
+<a href="https://www.flaticon.com/br/icones-gratis/calculadora" title="calculadora ícones">Calculadora ícones criados por Dimitry Miroliubov - Flaticon</a>
+
+<a href="https://www.flaticon.com/br/icones-gratis/ponto-de-interrogacao" title="ponto de interrogação ícones">Ponto de interrogação ícones criados por Freepik - Flaticon</a>
