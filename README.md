@@ -81,8 +81,28 @@ arredondado para 6.
 
 [Acessar site](https://gedotech-jogo-de-advinhacao.vercel.app/)
 
+### Desafio Extra - Jogo de Dados
+
+O jogador inicia com 100 pontos, e pode ganhar ou perder pontos ao "jogar" um dado de 6 faces, de acordo com as regras abaixo:
+ 
+1. Se o resultado do dado for ímpar, o jogador recebe 10 pontos
+2. Se o resultado do dado for par, o jogador perde 5 pontos.
+3. Se a rodada for múltipla de 3, o jogador ganha 15 pontos
+4. Se a rodada for múltipla de 4, o jogador perde 20 pontos
+5. Se a pontuação do jogador estiver negativa em qualquer momento, ele perde o dobro de pontos até a pontuação estar positiva
+ 
+O jogo é composto por 20 rodadas, e o jogador ganha se ele chegar na 20ª rodada com uma pontuação igual ou superior a 50 pontos.
+ 
+    Vocês não podem usar arrays para a execução do desafio
+    Utilizem os conceitos estudados até o momento para executar
+    O cálculo da pontuação deverá ser exibido, assim como o número da rodada e o resultado do dado.
+    A pontuação final deverá ser exibida na última rodada.
+    Poderá ser exibido em tela avisos de ganho e perda de pontos
+
 ## Créditos
 
 <a href="https://www.flaticon.com/br/icones-gratis/calculadora" title="calculadora ícones">Calculadora ícones criados por Dimitry Miroliubov - Flaticon</a>
 
 <a href="https://www.flaticon.com/br/icones-gratis/ponto-de-interrogacao" title="ponto de interrogação ícones">Ponto de interrogação ícones criados por Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/dice" title="dice icons">Dice icons created by IconsNova - Flaticon</a>
