@@ -101,6 +101,48 @@ O jogo é composto por 20 rodadas, e o jogador ganha se ele chegar na 20ª rodad
 
 [Acessar site](https://gedotech-jogo-de-dados.vercel.app/)
 
+## Dia 04
+
+### Desafio 04 - Lista de Compras
+
+Crie um programa simples que simula um gerenciador de lista de compras. 
+O usuário poderá adicionar itens à lista, remover itens e visualizar a lista de compras. 
+O programa deve usar vetores (arrays) e funções para organizar o código.
+
+**Regras:**
+1. O programa deve ter um array chamado _listaDeCompras_ que começa vazio.
+2. Deve oferecer as seguintes opções ao usuário:
+    * **Adicionar um item** à lista.
+    * **Remover um item** da lista.
+    * **Exibir os itens** da lista.
+    * **Sair do programa.**
+3. O programa deve rodar até que o usuário escolha sair.
+4. As funções devem ser utilizadas para organizar as operações principais:
+    * _adicionarItem(item)_: Adiciona um item ao array.
+    * _removerItem(item)_: Remove um item do array (se existir).
+    * _exibirLista()_: Mostra todos os itens da lista no console.
+
+**Dicas:**
+* Use _console.log()_ para exibir mensagens.
+* Para manter o programa rodando, utilize um **loop while** e um **switch-case** para as opções.
+* Você pode pesquisar na internet como usar ou como fazer alguma parte do programa, mas tente não usar IA para resolver o desafio, não engane a si mesmo
+
+**Rodando o programa:**
+
+Para rodar este programa, será necessário que você tenha instalado em sua máquina:
+* [NodeJS](https://nodejs.org/pt)
+
+1. Clone o repositório
+```bash
+git clone https://github.com/GEdO23/AlparAcademy-JavaScript-Basico
+cd AlparAcademy-JavaScript-Basico
+```
+
+2. Rode o programa com o seguinte comando
+```bash
+node dia-04/desafio-04/desafio-04.js
+```
+
 ## Créditos
 
 <a href="https://www.flaticon.com/br/icones-gratis/calculadora" title="calculadora ícones">Calculadora ícones criados por Dimitry Miroliubov - Flaticon</a>
